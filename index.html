@@ -41,12 +41,8 @@
       </div>
     </nav>
     <section id="profile">
-      <div class="section_pic-container">
-        <img
-          src="./assets/Profile-Picture.png"
-          alt="Ta'Nara N. Taylor Profile
-        Picture"
-        />
+      <div class="section_pic_container">
+        <img src="./assets/Profile-Picture.png" alt="Ta'Nara N. Taylor Profile Picture"/>
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hey, I'm</p>
@@ -54,6 +50,14 @@
         <p class="section__text__p2">
           Infra Transformation Senior Analyst, Infrastructure Cloud Engineer
         </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onlick="window.open('./assets/resume.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onlick="location.href='./#contact;">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://linkedin.com/taylortanara'">
+          <img src="./assets/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/taylortn'">
+        </div>
       </div>
     </section>
     <script src="script.js"></script>
