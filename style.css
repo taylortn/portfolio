@@ -21,7 +21,7 @@ p {
 .hero{
   height: 100vh;
   width: 100%;
-  background-image: url(../portfolio/assets/background_image.png);
+  background-image: url(../portfolio/assets/banner_image.jpg);
   background-size: cover;
   background-position: center;
 }
