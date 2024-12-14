@@ -14,7 +14,7 @@ p {
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-sizing: border-box;
 }
-
+/*HEADER*/
 .hero{
   height: 100vh;
   width: 100%;
@@ -22,6 +22,34 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right:8% ;
+}
+
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span{
+  color: #F81894;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+/*
 body {
   font-family: Georgia, sans-serif;
 }
