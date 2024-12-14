@@ -15,13 +15,14 @@ p {
   padding: 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
   box-sizing: border-box;
+  
 }
 
 /*HEADER*/
 .hero{
   height: 100vh;
   width: 100%;
-  background-image: url(../portfolio/assets/banner_image.jpg);
+  background-image: url(/assets/background_image.png);
   background-size: cover;
   background-position: center;
 }
